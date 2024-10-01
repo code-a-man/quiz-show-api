@@ -1,0 +1,828 @@
+[
+  {
+    "id": 1,
+    "questionText": "Python’da değişkenlerin veri türü nasıl belirlenir?",
+    "options": ["variableType()", "type()", "dataType()", "setType()"],
+    "correctAnswer": "type()"
+  },
+  {
+    "id": 2,
+    "questionText": "Hangi dil genellikle mobil uygulama geliştirmede kullanılır?",
+    "options": ["Ruby", "Swift", "PHP", "Go"],
+    "correctAnswer": "Swift"
+  },
+  {
+    "id": 3,
+    "questionText": "JavaScript'te DOM (Document Object Model) nedir?",
+    "options": [
+      "Sunucu tarafı programlama modeli",
+      "Web tarayıcısında belgeyi modellemek için kullanılan nesne yapısı",
+      "Veritabanı yönetim sistemi",
+      "CSS dosyalarını düzenleyen yapı"
+    ],
+    "correctAnswer": "Web tarayıcısında belgeyi modellemek için kullanılan nesne yapısı"
+  },
+  {
+    "id": 4,
+    "questionText": "Veritabanında JOIN işlemi ne için kullanılır?",
+    "options": [
+      "İki tabloyu birleştirmek",
+      "Veri güncellemek",
+      "Tabloyu silmek",
+      "Veri sıralamak"
+    ],
+    "correctAnswer": "İki tabloyu birleştirmek"
+  },
+  {
+    "id": 5,
+    "questionText": "Hangi veri yapısı FIFO (First In, First Out) mantığı ile çalışır?",
+    "options": ["Yığın", "Kuyruk", "Dizi", "Matris"],
+    "correctAnswer": "Kuyruk"
+  },
+  {
+    "id": 6,
+    "questionText": "Bir web sayfasının stilini belirlemek için hangi dil kullanılır?",
+    "options": ["JavaScript", "SQL", "PHP", "CSS"],
+    "correctAnswer": "CSS"
+  },
+  {
+    "id": 7,
+    "questionText": "Python'da boş bir liste nasıl oluşturulur?",
+    "options": ["[]", "()", "{}", "empty[]"],
+    "correctAnswer": "[]"
+  },
+  {
+    "id": 8,
+    "questionText": "Hangi algoritma en hızlı sıralama algoritmalarından biridir?",
+    "options": [
+      "Bubble Sort",
+      "Selection Sort",
+      "Quick Sort",
+      "Insertion Sort"
+    ],
+    "correctAnswer": "Quick Sort"
+  },
+  {
+    "id": 9,
+    "questionText": "Veritabanında veri eklemek için hangi SQL komutu kullanılır?",
+    "options": ["SELECT", "DELETE", "INSERT", "UPDATE"],
+    "correctAnswer": "INSERT"
+  },
+  {
+    "id": 10,
+    "questionText": "Python'da try-except bloğu ne amaçla kullanılır?",
+    "options": [
+      "Döngü oluşturmak",
+      "Hata yakalamak ve işlemek",
+      "Değişken tanımlamak",
+      "Fonksiyon yazmak"
+    ],
+    "correctAnswer": "Hata yakalamak ve işlemek"
+  },
+  {
+    "id": 11,
+    "questionText": "Bir Python sözlüğünde anahtar-değer çifti eklemek için hangi yöntem kullanılır?",
+    "options": ["add()", "update()", "append()", "insert()"],
+    "correctAnswer": "update()"
+  },
+  {
+    "id": 12,
+    "questionText": "Bir programda fonksiyonların amacı nedir?",
+    "options": [
+      "Veritabanı yönetimi",
+      "Hataları düzeltmek",
+      "Kod tekrarını azaltmak",
+      "Veriyi şifrelemek"
+    ],
+    "correctAnswer": "Kod tekrarını azaltmak"
+  },
+  {
+    "id": 13,
+    "questionText": "Hangi Python modülü rastgele sayılar üretir?",
+    "options": ["math", "random", "datetime", "os"],
+    "correctAnswer": "random"
+  },
+  {
+    "id": 14,
+    "questionText": "CSS'de bir elementin yazı tipi boyutunu değiştirmek için hangi özellik kullanılır?",
+    "options": ["font-family", "font-size", "text-align", "color"],
+    "correctAnswer": "font-size"
+  },
+  {
+    "id": 15,
+    "questionText": "Git'te yapılan değişiklikleri takip etmek için hangi komut kullanılır?",
+    "options": ["git add", "git commit", "git pull", "git clone"],
+    "correctAnswer": "git commit"
+  },
+  {
+    "id": 16,
+    "questionText": "Python'da bir dosya nasıl açılır?",
+    "options": ["file.open()", "readfile()", "open()", "loadfile()"],
+    "correctAnswer": "open()"
+  },
+  {
+    "id": 17,
+    "questionText": "HTML’de form oluşturmak için hangi etiket kullanılır?",
+    "options": ["<div>", "<form>", "<input>", "<button>"],
+    "correctAnswer": "<form>"
+  },
+  {
+    "id": 18,
+    "questionText": "Bir programda sabit bir değeri saklamak için hangi anahtar kelime kullanılır? (Python hariç)",
+    "options": ["constant", "static", "final", "const"],
+    "correctAnswer": "const"
+  },
+  {
+    "id": 19,
+    "questionText": "Python'da bir modül nasıl import edilir?",
+    "options": [
+      "load module",
+      "include module",
+      "require module",
+      "import module"
+    ],
+    "correctAnswer": "import module"
+  },
+  {
+    "id": 20,
+    "questionText": "JavaScript'te bir değişken nasıl tanımlanır?",
+    "options": ["let", "int", "var", "both A and C"],
+    "correctAnswer": "both A and C"
+  },
+  {
+    "id": 21,
+    "questionText": "Hangi algoritma verimli bir şekilde en kısa yolu bulur?",
+    "options": [
+      "Merge Sort",
+      "Binary Search",
+      "Dijkstra Algoritması",
+      "Quick Sort"
+    ],
+    "correctAnswer": "Dijkstra Algoritması"
+  },
+  {
+    "id": 22,
+    "questionText": "Bir veritabanında 'ACID' ilkesi neyi ifade eder?",
+    "options": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "Access, Control, Input, Data",
+      "Accuracy, Control, Integrity, Dependency",
+      "Authorization, Communication, Information, Data"
+    ],
+    "correctAnswer": "Atomicity, Consistency, Isolation, Durability"
+  },
+  {
+    "id": 23,
+    "questionText": "Bir yazılımda 'recursion' nedir?",
+    "options": [
+      "Bir döngünün tekrarlanması",
+      "Fonksiyonun kendini çağırması",
+      "Bir sınıfın miras alınması",
+      "Bir değerin güncellenmesi"
+    ],
+    "correctAnswer": "Fonksiyonun kendini çağırması"
+  },
+  {
+    "id": 24,
+    "questionText": "Hangi veri yapısı graf temsili için kullanılır?",
+    "options": ["Liste", "Yığın", "Adjacency Matrix", "Kuyruk"],
+    "correctAnswer": "Adjacency Matrix"
+  },
+  {
+    "id": 25,
+    "questionText": "Bir yazılım mimarisinde 'microservices' nedir?",
+    "options": [
+      "Tek bir monolitik uygulama",
+      "Küçük bağımsız hizmetlerden oluşan sistem",
+      "Veritabanı yönetim sistemi",
+      "Bulut tabanlı depolama sistemi"
+    ],
+    "correctAnswer": "Küçük bağımsız hizmetlerden oluşan sistem"
+  },
+  {
+    "id": 26,
+    "questionText": "Veri yapılarında 'hashing' ne işe yarar?",
+    "options": [
+      "Veriyi şifreler",
+      "Veriyi sıralar",
+      "Veriyi hızla bulmak için indeksler",
+      "Veriyi sıkıştırır"
+    ],
+    "correctAnswer": "Veriyi hızla bulmak için indeksler"
+  },
+  {
+    "id": 27,
+    "questionText": "Bir ağ üzerindeki en kısa yolun bulunması hangi algoritmayla yapılır?",
+    "options": ["Prim", "Kruskal", "Bellman-Ford", "Dijkstra"],
+    "correctAnswer": "Dijkstra"
+  },
+  {
+    "id": 28,
+    "questionText": "C++ dilinde pointer nedir?",
+    "options": [
+      "Bir fonksiyon",
+      "Bir veri yapısı",
+      "Bir değişkenin bellekteki adresini saklayan değişken",
+      "Bir döngü yapısı"
+    ],
+    "correctAnswer": "Bir değişkenin bellekteki adresini saklayan değişken"
+  },
+  {
+    "id": 29,
+    "questionText": "Bir bilgisayar ağı üzerinde kullanılan IPv6 adresi kaç bitten oluşur?",
+    "options": ["32", "64", "128", "256"],
+    "correctAnswer": "128"
+  },
+  {
+    "id": 30,
+    "questionText": "Python'da multithreading nedir?",
+    "options": [
+      "Aynı anda birden fazla işlemin gerçekleştirilmesi",
+      "Bir programı başlatma işlemi",
+      "Dosya okuma işlemi",
+      "Bellek yönetimi"
+    ],
+    "correctAnswer": "Aynı anda birden fazla işlemin gerçekleştirilmesi"
+  },
+  {
+    "id": 31,
+    "questionText": "Java'da final anahtar kelimesi ne anlama gelir?",
+    "options": [
+      "Sınıfın miras alınamayacağını belirtir",
+      "Sabit bir değeri belirtir",
+      "Fonksiyonun override edilemeyeceğini belirtir",
+      "Hepsi"
+    ],
+    "correctAnswer": "Hepsi"
+  },
+  {
+    "id": 32,
+    "questionText": "Bubble Sort algoritmasının en kötü durumda çalışma süresi nedir?",
+    "options": ["O(log n)", "O(n)", "O(n log n)", "O(n^2)"],
+    "correctAnswer": "O(n^2)"
+  },
+  {
+    "id": 33,
+    "questionText": "Python’da range() fonksiyonu ne yapar?",
+    "options": [
+      "Liste oluşturur",
+      "Döngü oluşturur",
+      "Belirtilen aralıkta bir sayı listesi döndürür",
+      "Fonksiyon tanımlar"
+    ],
+    "correctAnswer": "Belirtilen aralıkta bir sayı listesi döndürür"
+  },
+  {
+    "id": 34,
+    "questionText": "Hangi veri yapısı LIFO (Last In First Out) prensibi ile çalışır?",
+    "options": ["Kuyruk", "Yığın", "Dizi", "Liste"],
+    "correctAnswer": "Yığın"
+  },
+  {
+    "id": 35,
+    "questionText": "Bir yazılım sisteminde ‘scalability’ ne anlama gelir?",
+    "options": [
+      "Sistemin daha fazla yükü kaldırabilecek şekilde genişleyebilmesi",
+      "Sistemin güvenliğini artırmak",
+      "Sistemin hızı artırmak",
+      "Sistemin veri doğruluğunu sağlamak"
+    ],
+    "correctAnswer": "Sistemin daha fazla yükü kaldırabilecek şekilde genişleyebilmesi"
+  },
+  {
+    "id": 36,
+    "questionText": "JavaScript’te bir elemanın sayfadan kaldırılması için hangi metod kullanılır?",
+    "options": ["removeElement()", "delete()", "removeChild()", "erase()"],
+    "correctAnswer": "removeChild()"
+  },
+  {
+    "id": 37,
+    "questionText": "Bir dizinin ortadaki elemanını bulmak için kullanılan algoritma nedir?",
+    "options": ["Linear Search", "Binary Search", "Bubble Sort", "Quick Sort"],
+    "correctAnswer": "Binary Search"
+  },
+  {
+    "id": 38,
+    "questionText": "Python'da yazılan bir modülün yeniden yüklenmesi hangi komutla yapılır?",
+    "options": [
+      "import module",
+      "reload(module)",
+      "load module",
+      "init module"
+    ],
+    "correctAnswer": "reload(module)"
+  },
+  {
+    "id": 39,
+    "questionText": "JavaScript'te DOM elemanlarına stil atamak için hangi özellik kullanılır?",
+    "options": ["style()", "class()", "setStyle()", "element.style"],
+    "correctAnswer": "element.style"
+  },
+  {
+    "id": 40,
+    "questionText": "Big Data işlemek için kullanılan yaygın framework hangisidir?",
+    "options": ["Flask", "React", "Hadoop", "Node.js"],
+    "correctAnswer": "Hadoop"
+  },
+  {
+    "id": 41,
+    "questionText": "Makine öğreniminde kullanılan yaygın bir denetimli öğrenme algoritması nedir?",
+    "options": ["K-Means", "Linear Regression", "Random Forest", "DBSCAN"],
+    "correctAnswer": "Random Forest"
+  },
+  {
+    "id": 42,
+    "questionText": "TCP/IP modelinde veri transferinin güvenliği hangi katmanda sağlanır?",
+    "options": [
+      "Uygulama Katmanı",
+      "Taşıma Katmanı",
+      "Ağ Katmanı",
+      "Bağlantı Katmanı"
+    ],
+    "correctAnswer": "Taşıma Katmanı"
+  },
+  {
+    "id": 43,
+    "questionText": "Bir yazılımda hatayı kontrol etmek ve yakalamak için kullanılan yapıya ne ad verilir?",
+    "options": [
+      "Control flow",
+      "Error handling",
+      "Dependency injection",
+      "Recursion"
+    ],
+    "correctAnswer": "Error handling"
+  },
+  {
+    "id": 44,
+    "questionText": "Bir yazılım mimarisinde 'middleware' ne anlama gelir?",
+    "options": [
+      "Veritabanı yönetim sistemi",
+      "İstemci ve sunucu arasında veri işleyen katman",
+      "API yönetim sistemi",
+      "Sadece güvenlik ile ilgili bir katman"
+    ],
+    "correctAnswer": "İstemci ve sunucu arasında veri işleyen katman"
+  },
+  {
+    "id": 45,
+    "questionText": "Web güvenliği açısından hangi saldırı türü veri çalmak için formlarda yapılır?",
+    "options": [
+      "SQL Injection",
+      "Cross-site Scripting (XSS)",
+      "DDoS Attack",
+      "Phishing"
+    ],
+    "correctAnswer": "Cross-site Scripting (XSS)"
+  },
+  {
+    "id": 46,
+    "questionText": "Docker nedir?",
+    "options": [
+      "Bir programlama dili",
+      "Bir veri tabanı yönetim sistemi",
+      "Sanal makinelerin yönetimi için kullanılan bir araç",
+      "Yazılım konteynerleştirme platformu"
+    ],
+    "correctAnswer": "Yazılım konteynerleştirme platformu"
+  },
+  {
+    "id": 47,
+    "questionText": "Git versiyon kontrol sisteminde ‘branch’ nedir?",
+    "options": [
+      "Bir repository'nin silinmiş hali",
+      "Aynı projede bağımsız çalışmayı sağlayan dal",
+      "Veritabanında bir tablo",
+      "Bir dosyanın yedeği"
+    ],
+    "correctAnswer": "Aynı projede bağımsız çalışmayı sağlayan dal"
+  },
+  {
+    "id": 48,
+    "questionText": "API nedir?",
+    "options": [
+      "Veritabanı",
+      "Sunucu",
+      "İstemci",
+      "Uygulama programlama arayüzü"
+    ],
+    "correctAnswer": "Uygulama programlama arayüzü"
+  },
+  {
+    "id": 49,
+    "questionText": "Hangi komut sistemi terminali Linux işletim sisteminde yaygın olarak kullanılır?",
+    "options": ["PowerShell", "Bash", "cmd", "Zsh"],
+    "correctAnswer": "Bash"
+  },
+  {
+    "id": 50,
+    "questionText": "CSS’de bir öğenin şeffaflık değeri hangi özellik ile ayarlanır?",
+    "options": ["visibility", "opacity", "display", "z-index"],
+    "correctAnswer": "opacity"
+  },
+
+  {
+    "id": 51,
+    "questionText": "Bir yazılım geliştirme sürecinde 'Agile' nedir?",
+    "options": [
+      "Bir programlama dili",
+      "Esnek ve yinelemeli bir yazılım geliştirme metodolojisi",
+      "Veritabanı yönetim sistemi",
+      "Bulut tabanlı bir hizmet"
+    ],
+    "correctAnswer": "Esnek ve yinelemeli bir yazılım geliştirme metodolojisi"
+  },
+  {
+    "id": 52,
+    "questionText": "Hangi HTTP metodu veri güncellemek için kullanılır?",
+    "options": ["GET", "POST", "PUT", "DELETE"],
+    "correctAnswer": "PUT"
+  },
+  {
+    "id": 53,
+    "questionText": "RESTful API'de kaynaklara erişim hangi protokol üzerinden yapılır?",
+    "options": ["HTTP", "FTP", "SMTP", "SSH"],
+    "correctAnswer": "HTTP"
+  },
+  {
+    "id": 54,
+    "questionText": "Hangi algoritma graflarda minimum ağırlıklı kapsayıcı ağacı bulur?",
+    "options": ["Dijkstra", "Kruskal", "Floyd-Warshall", "Bellman-Ford"],
+    "correctAnswer": "Kruskal"
+  },
+  {
+    "id": 55,
+    "questionText": "Bir web sayfasının yanıt süresini azaltmak için kullanılan teknik nedir?",
+    "options": [
+      "Lazy Loading",
+      "Eager Loading",
+      "Data Caching",
+      "Rate Limiting"
+    ],
+    "correctAnswer": "Lazy Loading"
+  },
+  {
+    "id": 56,
+    "questionText": "Bir veritabanında verilerin tekrarlanmaması için hangi kavram kullanılır?",
+    "options": ["Normalization", "Denormalization", "Indexing", "Partitioning"],
+    "correctAnswer": "Normalization"
+  },
+  {
+    "id": 57,
+    "questionText": "Python'da listelerin sıralanması için hangi yöntem kullanılır?",
+    "options": ["sort()", "sorted()", "order()", "arrange()"],
+    "correctAnswer": "sorted()"
+  },
+  {
+    "id": 58,
+    "questionText": "Bir yazılımda güvenliği artırmak için hangi teknik yaygın olarak kullanılır?",
+    "options": [
+      "Veritabanı yedekleme",
+      "Parola şifreleme",
+      "Ağ trafiği izleme",
+      "Yük dengeleme"
+    ],
+    "correctAnswer": "Parola şifreleme"
+  },
+  {
+    "id": 59,
+    "questionText": "JavaScript'te arrow function nasıl tanımlanır?",
+    "options": ["function =>", "() =>", "=> function", "() ->"],
+    "correctAnswer": "() =>"
+  },
+  {
+    "id": 60,
+    "questionText": "HTML'de bir görsel eklemek için hangi etiket kullanılır?",
+    "options": ["<img>", "<picture>", "<visual>", "<embed>"],
+    "correctAnswer": "<img>"
+  },
+  {
+    "id": 61,
+    "questionText": "Bir yazılımda 'refactoring' ne demektir?",
+    "options": [
+      "Kodun yeniden yazılması",
+      "Kodun işlevini değiştirmeden iyileştirilmesi",
+      "Yeni bir özellik eklenmesi",
+      "Yazılımın tamamen yeniden yapılması"
+    ],
+    "correctAnswer": "Kodun işlevini değiştirmeden iyileştirilmesi"
+  },
+  {
+    "id": 62,
+    "questionText": "Bir veritabanında indeksleme ne amaçla kullanılır?",
+    "options": [
+      "Veriyi sıkıştırmak",
+      "Veritabanını yedeklemek",
+      "Veri arama hızını artırmak",
+      "Veri eklemek"
+    ],
+    "correctAnswer": "Veri arama hızını artırmak"
+  },
+  {
+    "id": 63,
+    "questionText": "Python'da bir listenin uzunluğunu bulmak için hangi fonksiyon kullanılır?",
+    "options": ["length()", "len()", "count()", "size()"],
+    "correctAnswer": "len()"
+  },
+  {
+    "id": 64,
+    "questionText": "Bir yazılımda hata ayıklama süreci ne anlama gelir?",
+    "options": [
+      "Hataları tespit etmek ve düzeltmek",
+      "Yazılımı yeniden yazmak",
+      "Yeni özellik eklemek",
+      "Performansı artırmak"
+    ],
+    "correctAnswer": "Hataları tespit etmek ve düzeltmek"
+  },
+  {
+    "id": 65,
+    "questionText": "Web güvenliğinde XSS (Cross-Site Scripting) saldırısı nedir?",
+    "options": [
+      "Bir sunucunun ele geçirilmesi",
+      "Bir web sayfasında kötü niyetli kod çalıştırılması",
+      "Veritabanına yetkisiz erişim",
+      "Hizmet kesintisi"
+    ],
+    "correctAnswer": "Bir web sayfasında kötü niyetli kod çalıştırılması"
+  },
+  {
+    "id": 66,
+    "questionText": "JavaScript'te 'this' anahtar kelimesi neyi ifade eder?",
+    "options": [
+      "Global değişkeni",
+      "Şu anki nesneyi",
+      "Yüksek öncelikli değişkeni",
+      "Fonksiyonun adı"
+    ],
+    "correctAnswer": "Şu anki nesneyi"
+  },
+  {
+    "id": 67,
+    "questionText": "CSS’de kutu modelinde 'padding' nedir?",
+    "options": [
+      "Bir elementin içeriği ile kenarlıkları arasındaki boşluk",
+      "Elementin dış kenar boşluğu",
+      "Kenarlığın genişliği",
+      "Elementin içeriği"
+    ],
+    "correctAnswer": "Bir elementin içeriği ile kenarlıkları arasındaki boşluk"
+  },
+  {
+    "id": 68,
+    "questionText": "Python'da bir 'set' nedir?",
+    "options": [
+      "Sıralı bir veri yapısı",
+      "Elemanları tekrar etmeyen sırasız veri yapısı",
+      "Key-value çiftleri içeren veri yapısı",
+      "Sadece sayısal verileri saklayan yapı"
+    ],
+    "correctAnswer": "Elemanları tekrar etmeyen sırasız veri yapısı"
+  },
+  {
+    "id": 69,
+    "questionText": "HTTP status kodu 404 ne anlama gelir?",
+    "options": [
+      "Sunucu hatası",
+      "Yetkisiz erişim",
+      "Bulunamadı",
+      "Yönlendirme"
+    ],
+    "correctAnswer": "Bulunamadı"
+  },
+  {
+    "id": 70,
+    "questionText": "JavaScript'te '===', '==' operatörlerinden farkı nedir?",
+    "options": [
+      "İkisi de aynı anlama gelir",
+      "=== sadece veri tipine bakar",
+      "== sadece değere bakar",
+      "=== veri tipi ve değeri karşılaştırır"
+    ],
+    "correctAnswer": "=== veri tipi ve değeri karşılaştırır"
+  },
+  {
+    "id": 71,
+    "questionText": "CSS’de bir elementin arka plan rengini ayarlamak için hangi özellik kullanılır?",
+    "options": ["background-color", "color", "background-image", "opacity"],
+    "correctAnswer": "background-color"
+  },
+  {
+    "id": 72,
+    "questionText": "Hangi SQL komutu bir tablodaki veriyi silmek için kullanılır?",
+    "options": ["SELECT", "INSERT", "DELETE", "UPDATE"],
+    "correctAnswer": "DELETE"
+  },
+  {
+    "id": 73,
+    "questionText": "Bir uygulamada çok fazla istek yapılmasını engellemek için kullanılan yöntem nedir?",
+    "options": ["Rate Limiting", "Load Balancing", "Caching", "Sharding"],
+    "correctAnswer": "Rate Limiting"
+  },
+  {
+    "id": 74,
+    "questionText": "Python'da bir sınıftan nesne türetmek için hangi anahtar kelime kullanılır?",
+    "options": ["new", "this", "class", "self"],
+    "correctAnswer": "class"
+  },
+  {
+    "id": 75,
+    "questionText": "React'te bir bileşen nasıl tanımlanır?",
+    "options": [
+      "function Component()",
+      "Component()",
+      "class Component",
+      "function classComponent()"
+    ],
+    "correctAnswer": "function Component()"
+  },
+  {
+    "id": 76,
+    "questionText": "Döngü yapısında koşulun hemen kontrol edilmesini sağlayan ifade nedir?",
+    "options": ["if", "continue", "break", "while"],
+    "correctAnswer": "break"
+  },
+  {
+    "id": 77,
+    "questionText": "JavaScript'te 'var', 'let' ve 'const' arasındaki fark nedir?",
+    "options": [
+      "'var' global değişken oluşturur, 'let' ve 'const' blok seviyesinde değişken oluşturur",
+      "'const' sabit değer saklar, 'let' ve 'var' değişken saklar",
+      "'var' ve 'let' blok seviyesinde çalışır, 'const' fonksiyon seviyesinde çalışır",
+      "'let' ve 'var' aynı işlevdedir, 'const' sabittir"
+    ],
+    "correctAnswer": "'var' global değişken oluşturur, 'let' ve 'const' blok seviyesinde değişken oluşturur"
+  },
+  {
+    "id": 78,
+    "questionText": "JavaScript'te bir dizinin sonuna eleman eklemek için hangi yöntem kullanılır?",
+    "options": ["push()", "pop()", "shift()", "unshift()"],
+    "correctAnswer": "push()"
+  },
+  {
+    "id": 79,
+    "questionText": "Hangi algoritma hızlı sıralama için kullanılır?",
+    "options": ["Merge Sort", "Bubble Sort", "Insertion Sort", "Quick Sort"],
+    "correctAnswer": "Quick Sort"
+  },
+  {
+    "id": 80,
+    "questionText": "Bir sınıfın birden fazla sınıftan türetilmesine ne denir?",
+    "options": [
+      "Single Inheritance",
+      "Multiple Inheritance",
+      "Hierarchical Inheritance",
+      "Multilevel Inheritance"
+    ],
+    "correctAnswer": "Multiple Inheritance"
+  },
+  {
+    "id": 81,
+    "questionText": "Hangi JavaScript metodu bir diziyi alfabetik olarak sıralar?",
+    "options": ["arr.sort()", "arr.filter()", "arr.reverse()", "arr.join()"],
+    "correctAnswer": "arr.sort()"
+  },
+  {
+    "id": 82,
+    "questionText": "Hangi komut, git'de yapılan değişiklikleri geri alır?",
+    "options": ["git reset", "git revert", "git pull", "git stash"],
+    "correctAnswer": "git revert"
+  },
+  {
+    "id": 83,
+    "questionText": "Hangi Python veri yapısı sıralı bir şekilde verileri saklar?",
+    "options": ["Set", "Dictionary", "Tuple", "List"],
+    "correctAnswer": "List"
+  },
+  {
+    "id": 84,
+    "questionText": "JSON nedir?",
+    "options": [
+      "Bir programlama dili",
+      "Bir veritabanı",
+      "Veri alışverişi için hafif bir format",
+      "Veri tablosu"
+    ],
+    "correctAnswer": "Veri alışverişi için hafif bir format"
+  },
+  {
+    "id": 85,
+    "questionText": "Hangi Node.js modülü HTTP sunucuları oluşturmak için kullanılır?",
+    "options": ["http", "express", "fs", "socket"],
+    "correctAnswer": "http"
+  },
+  {
+    "id": 86,
+    "questionText": "CSS’de bir elementin kenarlık rengini değiştirmek için hangi özellik kullanılır?",
+    "options": ["border-color", "border-style", "border-width", "color"],
+    "correctAnswer": "border-color"
+  },
+  {
+    "id": 87,
+    "questionText": "Linux'ta 'ls' komutu ne yapar?",
+    "options": [
+      "Dosya oluşturur",
+      "Dosyaları listeler",
+      "Dosya siler",
+      "Dosya taşır"
+    ],
+    "correctAnswer": "Dosyaları listeler"
+  },
+  {
+    "id": 88,
+    "questionText": "Bir TCP bağlantısında, hangi adım bağlantıyı sonlandırır?",
+    "options": ["SYN", "FIN", "ACK", "PSH"],
+    "correctAnswer": "FIN"
+  },
+  {
+    "id": 89,
+    "questionText": "HTML'de tablo eklemek için hangi etiket kullanılır?",
+    "options": ["<div>", "<table>", "<form>", "<section>"],
+    "correctAnswer": "<table>"
+  },
+  {
+    "id": 90,
+    "questionText": "Python'da bir dosyanın kapatılması için hangi metod kullanılır?",
+    "options": ["open()", "close()", "shut()", "terminate()"],
+    "correctAnswer": "close()"
+  },
+  {
+    "id": 91,
+    "questionText": "CSS'de bir elemanı sayfanın soluna hizalamak için hangi özellik kullanılır?",
+    "options": [
+      "text-align: center",
+      "float: left",
+      "margin-left: 0",
+      "align-items: flex-start"
+    ],
+    "correctAnswer": "float: left"
+  },
+  {
+    "id": 92,
+    "questionText": "React'te, bileşen durumu hangi hook ile yönetilir?",
+    "options": ["useEffect", "useState", "useContext", "useMemo"],
+    "correctAnswer": "useState"
+  },
+  {
+    "id": 93,
+    "questionText": "JavaScript'te bir dizinin uzunluğu nasıl bulunur?",
+    "options": ["arr.size", "arr.count", "arr.length", "arr.total"],
+    "correctAnswer": "arr.length"
+  },
+  {
+    "id": 94,
+    "questionText": "Python'da 'def' anahtar kelimesi neyi tanımlar?",
+    "options": ["Değişken", "Fonksiyon", "Sınıf", "Modül"],
+    "correctAnswer": "Fonksiyon"
+  },
+  {
+    "id": 95,
+    "questionText": "SQL'de bir tablo oluşturmak için hangi komut kullanılır?",
+    "options": [
+      "CREATE DATABASE",
+      "CREATE TABLE",
+      "INSERT INTO",
+      "ALTER TABLE"
+    ],
+    "correctAnswer": "CREATE TABLE"
+  },
+  {
+    "id": 96,
+    "questionText": "Bir veritabanında 'JOIN' ifadesi ne yapar?",
+    "options": [
+      "Tabloları birleştirir",
+      "Tabloyu siler",
+      "Tabloyu günceller",
+      "Veritabanı yedekler"
+    ],
+    "correctAnswer": "Tabloları birleştirir"
+  },
+  {
+    "id": 97,
+    "questionText": "CSS'de hangi özellik metin rengini ayarlar?",
+    "options": ["text-color", "color", "font-color", "text-style"],
+    "correctAnswer": "color"
+  },
+  {
+    "id": 98,
+    "questionText": "Web sayfalarında kullanıcı etkileşimlerini işlemek için hangi dil kullanılır?",
+    "options": ["HTML", "CSS", "JavaScript", "SQL"],
+    "correctAnswer": "JavaScript"
+  },
+  {
+    "id": 99,
+    "questionText": "Linux'ta 'cd' komutu ne yapar?",
+    "options": [
+      "Dosya oluşturur",
+      "Dizini değiştirir",
+      "Dosya siler",
+      "Dizini listeler"
+    ],
+    "correctAnswer": "Dizini değiştirir"
+  },
+  {
+    "id": 100,
+    "questionText": "Hangi Python kütüphanesi veri analizi için yaygın olarak kullanılır?",
+    "options": ["NumPy", "Pandas", "Matplotlib", "Scikit-learn"],
+    "correctAnswer": "Pandas"
+  }
+]
