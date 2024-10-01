@@ -4,7 +4,7 @@ import { Router } from "jsr:@oak/oak/router";
 import "@std/dotenv/load";
 import questionsFile from "./questions.json" with { type: "json" };
 
-const kv = await Deno.openKv(Deno.env.get("DENO_KV_URL"));
+const kv = await Deno.openKv(Deno.env.get("URL"));
 
 const router = new Router();
 
