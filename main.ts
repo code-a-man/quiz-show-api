@@ -80,7 +80,7 @@ router.post("/bilisimekipyonetim/create-session", async (ctx) => {
   const selectedQuestions = shuffle(questions).slice(0, 3).map((q: Question) => q.id);
 
   // Session'ı KV yerine bir object olarak sakla (ya da Deno KV'de tutabilirsin) I want unix timestamp
-  const timestamp = Math.floor(new Date().getTime() / 1000);
+  const timestamp = Math.floor(new Date().getTime());
   const session = { uuid, selectedQ: selectedQuestions, createdAt: timestamp };
 
   // Session'ı KV'ye kaydet
@@ -144,12 +144,6 @@ router.post("/session/:uuid/submit", async (ctx) => {
     return;
   }
 
-  if (answers.length !== 3) {
-    ctx.response.status = 400;
-    ctx.response.body = { message: "3 soruya cevap vermelisiniz." };
-    return;
-  }
-
   const correctAnswers = questionsFile.filter((q: Question) => session.selectedQ?.includes(q.id)).map((q: Question) => {
     return { id: q.id, correctAnswer: q.correctAnswer };
   });
@@ -164,7 +158,29 @@ router.post("/session/:uuid/submit", async (ctx) => {
   }
   );
 
+  await kv.delete(["session", uuid]);
+
+  const scoreData = { score, time: Math.floor(new Date().getTime()) };
+  await kv.set(["score", uuid], scoreData, {expireIn: 300000} );
+
   ctx.response.body = { score };
+
+});
+
+router.get("/score/:uuid", async (ctx) => { 
+
+  const { uuid } = ctx.params;
+  const data = await kv.get(["score", uuid]);
+  const { score, time } = data?.value as { score: number | undefined, time: number | undefined };
+
+  if (!score) {
+    ctx.response.status = 404;
+    ctx.response.body = { message: "Skor bulunamadı." };
+    return;
+  }
+
+  ctx.response.body = { score, time };
+
 
 });
 
