@@ -5,7 +5,7 @@ import { verify } from "https://deno.land/x/djwt@v3.0.2/mod.ts";
 import "@std/dotenv/load";
 import questionsFile from "./questions.json" with { type: "json" };
 
-const kv = await Deno.openKv(Deno.env.get("URL"));
+const kv = Deno.env.get("Deploy") ? await Deno.openKv() : await Deno.openKv(Deno.env.get("URL"))
 
 const router = new Router();
 
