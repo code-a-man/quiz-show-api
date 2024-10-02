@@ -16,11 +16,11 @@
     "questionText": "JavaScript'te DOM (Document Object Model) nedir?",
     "options": [
       "Sunucu tarafı programlama modeli",
-      "Web tarayıcısında belgeyi modellemek için kullanılan nesne yapısı",
+      "Webde belgeyi modellemek için kullanılan nesne yapısı",
       "Veritabanı yönetim sistemi",
       "CSS dosyalarını düzenleyen yapı"
     ],
-    "correctAnswer": "Web tarayıcısında belgeyi modellemek için kullanılan nesne yapısı"
+    "correctAnswer": "Webde belgeyi modellemek için kullanılan nesne yapısı"
   },
   {
     "id": 4,
@@ -81,7 +81,7 @@
   },
   {
     "id": 11,
-    "questionText": "Bir Python sözlüğünde anahtar-değer çifti eklemek için hangi yöntem kullanılır?",
+    "questionText": "Bir Python sözlüğünde bir değeri güncellemek için hangi metot kullanılır?",
     "options": ["add()", "update()", "append()", "insert()"],
     "correctAnswer": "update()"
   },
@@ -110,7 +110,7 @@
   },
   {
     "id": 15,
-    "questionText": "Git'te yapılan değişiklikleri takip etmek için hangi komut kullanılır?",
+    "questionText": "Git'te yapılan değişiklikleri kaydetmek için hangi komut kullanılır?",
     "options": ["git add", "git commit", "git pull", "git clone"],
     "correctAnswer": "git commit"
   },
@@ -201,7 +201,7 @@
   },
   {
     "id": 26,
-    "questionText": "Veri yapılarında 'hashing' ne işe yarar?",
+    "questionText": "Veri yapılarında 'hash table' ne işe yarar?",
     "options": [
       "Veriyi şifreler",
       "Veriyi sıralar",
@@ -213,19 +213,19 @@
   {
     "id": 27,
     "questionText": "Bir ağ üzerindeki en kısa yolun bulunması hangi algoritmayla yapılır?",
-    "options": ["Prim", "Kruskal", "Bellman-Ford", "Dijkstra"],
+    "options": ["Quick", "Fisher-Yates", "Bubble", "Dijkstra"],
     "correctAnswer": "Dijkstra"
   },
   {
     "id": 28,
-    "questionText": "C++ dilinde pointer nedir?",
+    "questionText": "C++ dilinde pointer ne işe yarar?",
     "options": [
-      "Bir fonksiyon",
-      "Bir veri yapısı",
-      "Bir değişkenin bellekteki adresini saklayan değişken",
-      "Bir döngü yapısı"
+      "Değişken tanımlama",
+      "Değişkenin değeri",
+      "Değişkenin bellekteki adresi",
+      "Değişkenin tipi"
     ],
-    "correctAnswer": "Bir değişkenin bellekteki adresini saklayan değişken"
+    "correctAnswer": "Değişkenin bellekteki adresi"
   },
   {
     "id": 29,
@@ -445,9 +445,14 @@
   },
   {
     "id": 54,
-    "questionText": "Hangi algoritma graflarda minimum ağırlıklı kapsayıcı ağacı bulur?",
-    "options": ["Dijkstra", "Kruskal", "Floyd-Warshall", "Bellman-Ford"],
-    "correctAnswer": "Kruskal"
+    "questionText": "Bir yazılım projesinde 'sprint' nedir?",
+    "options": [
+      "Bir yazılımın son sürümü",
+      "Bir yazılımın ilk sürümü",
+      "Kısa süreli ve yoğun bir geliştirme dönemi",
+      "Bir yazılımın test aşaması"
+    ],
+    "correctAnswer": "Kısa süreli ve yoğun bir geliştirme dönemi"
   },
   {
     "id": 55,
@@ -469,8 +474,8 @@
   {
     "id": 57,
     "questionText": "Python'da listelerin sıralanması için hangi yöntem kullanılır?",
-    "options": ["sort()", "sorted()", "order()", "arrange()"],
-    "correctAnswer": "sorted()"
+    "options": ["sort()", "pop()", "order()", "arrange()"],
+    "correctAnswer": "sort()"
   },
   {
     "id": 58,
@@ -530,7 +535,7 @@
       "Hataları tespit etmek ve düzeltmek",
       "Yazılımı yeniden yazmak",
       "Yeni özellik eklemek",
-      "Performansı artırmak"
+      "Yazılımı test etmek"
     ],
     "correctAnswer": "Hataları tespit etmek ve düzeltmek"
   },
@@ -563,7 +568,7 @@
       "Bir elementin içeriği ile kenarlıkları arasındaki boşluk",
       "Elementin dış kenar boşluğu",
       "Kenarlığın genişliği",
-      "Elementin içeriği"
+      "Elementin ile diğer elementler arasındaki boşluk"
     ],
     "correctAnswer": "Bir elementin içeriği ile kenarlıkları arasındaki boşluk"
   },
@@ -626,31 +631,21 @@
   },
   {
     "id": 75,
-    "questionText": "React'te bir bileşen nasıl tanımlanır?",
-    "options": [
-      "function Component()",
-      "Component()",
-      "class Component",
-      "function classComponent()"
-    ],
-    "correctAnswer": "function Component()"
-  },
-  {
-    "id": 76,
-    "questionText": "Döngü yapısında koşulun hemen kontrol edilmesini sağlayan ifade nedir?",
+    "questionText": "Go dilinde bir döngüyü sonlandırmak için hangi anahtar kelime kullanılır?",
     "options": ["if", "continue", "break", "while"],
     "correctAnswer": "break"
   },
   {
+    "id": 76,
+    "questionText": "Döngüde bir sonraki adıma geçmek için hangi anahtar kelime kullanılır?",
+    "options": ["if", "continue", "break", "while"],
+    "correctAnswer": "continue"
+  },
+  {
     "id": 77,
-    "questionText": "JavaScript'te 'var', 'let' ve 'const' arasındaki fark nedir?",
-    "options": [
-      "'var' global değişken oluşturur, 'let' ve 'const' blok seviyesinde değişken oluşturur",
-      "'const' sabit değer saklar, 'let' ve 'var' değişken saklar",
-      "'var' ve 'let' blok seviyesinde çalışır, 'const' fonksiyon seviyesinde çalışır",
-      "'let' ve 'var' aynı işlevdedir, 'const' sabittir"
-    ],
-    "correctAnswer": "'var' global değişken oluşturur, 'let' ve 'const' blok seviyesinde değişken oluşturur"
+    "questionText": "Bilişim Kulübü kaç yılında kurulmuştur?",
+    "options": ["2021", "2022", "2023", "2024"],
+    "correctAnswer": "2022"
   },
   {
     "id": 78,
@@ -689,9 +684,9 @@
   },
   {
     "id": 83,
-    "questionText": "Hangi Python veri yapısı sıralı bir şekilde verileri saklar?",
-    "options": ["Set", "Dictionary", "Tuple", "List"],
-    "correctAnswer": "List"
+    "questionText": "Hangi Python modülü dosya işlemleri için kullanılır?",
+    "options": ["os", "math", "random", "datetime"],
+    "correctAnswer": "os"
   },
   {
     "id": 84,
@@ -699,15 +694,15 @@
     "options": [
       "Bir programlama dili",
       "Bir veritabanı",
-      "Veri alışverişi için hafif bir format",
+      "Veri depolama için bir format",
       "Veri tablosu"
     ],
-    "correctAnswer": "Veri alışverişi için hafif bir format"
+    "correctAnswer": "Veri depolama için bir format"
   },
   {
     "id": 85,
-    "questionText": "Hangi Node.js modülü HTTP sunucuları oluşturmak için kullanılır?",
-    "options": ["http", "express", "fs", "socket"],
+    "questionText": "Hangi Node.js modülü bir web sunucusu oluşturmak için kullanılır?",
+    "options": ["http", "fs", "path", "url"],
     "correctAnswer": "http"
   },
   {
@@ -729,9 +724,9 @@
   },
   {
     "id": 88,
-    "questionText": "Bir TCP bağlantısında, hangi adım bağlantıyı sonlandırır?",
-    "options": ["SYN", "FIN", "ACK", "PSH"],
-    "correctAnswer": "FIN"
+    "questionText": "Python'da bir dosyaya veri yazmak için hangi modda dosya açılır?",
+    "options": ["r", "w", "a", "x"],
+    "correctAnswer": "w"
   },
   {
     "id": 89,
@@ -798,9 +793,14 @@
   },
   {
     "id": 97,
-    "questionText": "CSS'de hangi özellik metin rengini ayarlar?",
-    "options": ["text-color", "color", "font-color", "text-style"],
-    "correctAnswer": "color"
+    "questionText": "Siber güvenlikte 'phishing' ne anlama gelir?",
+    "options": [
+      "Bir sunucunun ele geçirilmesi",
+      "Kötü niyetli yazılım",
+      "Veri hırsızlığı",
+      "Kullanıcıları yanıltarak veri çalmak"
+    ],
+    "correctAnswer": "Kullanıcıları yanıltarak veri çalmak"
   },
   {
     "id": 98,
@@ -821,8 +821,13 @@
   },
   {
     "id": 100,
-    "questionText": "Hangi Python kütüphanesi veri analizi için yaygın olarak kullanılır?",
-    "options": ["NumPy", "Pandas", "Matplotlib", "Scikit-learn"],
-    "correctAnswer": "Pandas"
+    "questionText": "Linux'ta 'rm' komutu ne yapar?",
+    "options": [
+      "Dosya oluşturur",
+      "Dosyayı siler",
+      "Dosyayı taşır",
+      "Dosyayı listeler"
+    ],
+    "correctAnswer": "Dosyayı siler"
   }
 ]
