@@ -1,5 +1,6 @@
 import { Application } from "jsr:@oak/oak/application";
 import { Router } from "jsr:@oak/oak/router";
+import { verify } from "https://deno.land/x/djwt@v3.0.2/mod.ts";
 
 import "@std/dotenv/load";
 import questionsFile from "./questions.json" with { type: "json" };
@@ -27,6 +28,51 @@ type Answer = {
 };
 
 router.post("/bilisimekipyonetim/create-session", async (ctx) => {
+
+  // get authorization header and verify jwt token
+
+  const token = ctx.request.headers.get("Authorization");
+
+  if (!token) {
+    ctx.response.status = 401;
+    ctx.response.body = { message: "Yetkisiz erişim." };
+    return;
+  }
+
+  // JWT token verify
+
+  const jwt = token.split(" ")[1];
+
+  let payload;
+
+  try {
+    const jwtSecret = Deno.env.get("JWT_SECRET");
+    if (!jwtSecret) {
+      ctx.response.status = 500;
+      ctx.response.body = { message: "JWT secret is not defined." };
+      return;
+    }
+    const key = await crypto.subtle.importKey(
+      "raw",
+      new TextEncoder().encode(jwtSecret),
+      { name: "HMAC", hash: "SHA-256" },
+      false,
+      ["verify"]
+    );
+    payload = await verify(jwt, key);
+  } catch (_error) {
+    ctx.response.status = 401;
+    ctx.response.body = { message: "Geçersiz token." };
+    return;
+  }
+
+  if (!payload) {
+    ctx.response.status = 401;
+    ctx.response.body = { message: "Geçersiz token." };
+    return;
+  }
+
+
   const uuid = crypto.randomUUID(); // UUID oluştur
 
   // Soruları JSON dosyasından oku
