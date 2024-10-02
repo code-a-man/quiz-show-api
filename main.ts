@@ -173,14 +173,13 @@ router.get("/score/:uuid", async (ctx) => {
   const data = await kv.get(["score", uuid]);
   const { score, time } = data?.value as { score: number | undefined, time: number | undefined };
 
-  if (!score) {
+  if (!time) {
     ctx.response.status = 404;
     ctx.response.body = { message: "Skor bulunamadı." };
     return;
   }
 
   ctx.response.body = { score, time };
-
 
 });
 
