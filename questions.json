@@ -146,8 +146,8 @@
   {
     "id": 20,
     "questionText": "JavaScript'te bir değişken nasıl tanımlanır?",
-    "options": ["let", "int", "var", "both A and C"],
-    "correctAnswer": "both A and C"
+    "options": ["let", "const", "var", "Hepsi"],
+    "correctAnswer": "Hepsi"
   },
   {
     "id": 21,

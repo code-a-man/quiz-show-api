@@ -161,7 +161,7 @@ router.post("/session/:uuid/submit", async (ctx) => {
   await kv.delete(["session", uuid]);
 
   const scoreData = { score, time: Math.floor(new Date().getTime()) };
-  await kv.set(["score", uuid], scoreData, {expireIn: 300000} );
+  await kv.set(["score", uuid], scoreData );
 
   ctx.response.body = { score };
 
